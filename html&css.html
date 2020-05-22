@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htmlandcss</title>
+<style>
+    body{
+        background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&h=350");
+        background-repeat:no-repeat;
+        background-size: 100%;
+        
+    }
+    .all{
+  display: flex;
+flex-direction: row;
+overflow: scroll ;
+height: 500px;
+}
+
+.on:hover{
+background-image: url("pencil.JPG");
+background-repeat: no-repeat;
+background-position: right;
+}
+
+
+
+      .nav{
+
+        height: 50px;
+        background-color: cornflowerblue;
+        opacity: 0.5;
+
+      }
+      a:hover{
+        cursor: pointer;
+      }
+     .ab{
+  text-align: center;
+ 
+  float: left;
+  color: aliceblue;
+  padding-left: 20px;
+     }
+     .one{
+
+      width:180px ;
+      background-color:lightgrey ;
+      opacity: 0.8;
+      border-radius:5px ;
+      padding: 20px;
+      margin: 20px;
+      height: 250px;
+     }
+     .two{
+width: 180px;
+background-color: lightgrey;
+border-radius: 5px;
+padding: 20px;
+margin:20px;
+height: 250px;
+opacity: 0.8;
+
+
+     }
+     .three{
+
+
+width: 180px;
+background-color: lightgrey;
+border-radius: 5px;
+padding: 20px;
+margin:20px;
+height: 150px;
+opacity: 0.8;
+
+     }
+
+.four{
+  width: 180px;
+background-color: lightgrey;
+border-radius: 5px;
+padding: 20px;
+margin:20px;
+height: 150px;
+opacity: 0.8;
+}
+.five{
+  width: 180px;
+background-color: lightgrey;
+border-radius: 5px;
+padding: 20px;
+margin:20px;
+height: 100px;
+opacity: 0.8;
+}
+
+.six{
+  width: 180px;
+background-color: lightgrey;
+border-radius: 5px;
+padding: 20px;
+margin:20px;
+height: 80px;
+opacity: 0.8;
+
+}
+.seven{
+  width: 180px;
+background-color: lightgrey;
+border-radius: 5px;
+padding: 20px;
+margin:20px;
+height: 120px;
+ opacity: 0.8;
+}
+
+.tw:hover{
+cursor: pointer;
+background-color: grey;
+opacity: 0.5;
+
+}
+
+
+</style>
+
+</head>
+<body>
+  <div class="nav">
+    <p class="ab">
+    <a href="#Home" style="color: aliceblue;"><img src="home.JPG" > </a>
+    <a href="#Boards" style="color: aliceblue; padding-left: 20px;"> <img src="board.JPG" > </a>
+    </p>
+    <p>
+      <input type="text" style="margin-top: 18px; margin-left: 50px;">
+    
+    <span style="padding-left: 300px; font-size: xx-large;font-weight: bold;color: black; display: inline;">
+      Trasala</span>
+      <a href="#user" style="padding-left: 480px; color: blanchedalmond;"><img src="user.JPG" ></a>
+      <a href="#list"  style="color: blanchedalmond;"> <img src="list.JPG" ></a>
+    </p>
+  </div>
+  <div style="height: 40px; background-color: gray;opacity: 0.4; padding-left: 95%; color: honeydew;">
+    :Show Menu
+  </div>
+  <div class="all">
+    <div class="one">
+      <p style="font-weight: bold;">To Do            </p>
+    <p class="on" style="background-color: ivory;width:180px ; height: 30px;border-radius: 5px; padding: 5px;"> Learn HTML</p>
+    <p class="on" style="background-color: ivory;width:180px ; height: 30px;border-radius: 5px; padding: 5px;"> Learn CSS</p>
+
+    <p  class="on"style="background-color: ivory;width:180px ; height: 30px;border-radius: 5px; padding: 5px;">Learn JavaScript</p>
+    <p>+ Add Another card</p>
+
+   
+</div>
+<div class="two">
+  <p  style="font-weight: bold;">Doing</p>
+  <p  class="tw" style="background-color: ivory;width:180px ; height: 30px;border-radius: 5px; padding: 5px;">Prepare Resume</p>
+  <p><textarea placeholder="enter a title for this card..."></textarea></p>
+  <p><button type="submit" style="color: honeydew;background-color: olive;">Add Card</button> <button type="reset">X</button></p>
+
+</div>
+
+<div class="three">
+  <p  style="font-weight: bold;">Testing/verifying</p>
+  <p  class="tw"style="background-color: ivory;width:150px ; height: 30px;border-radius: 5px; padding: 5px;">Twiter App Frontend</p>
+  <p>+ Add Another Card</p>
+</div>
+<div class="four">
+  <p  style="font-weight: bold;">Deploying</p>
+  <p  class="tw"style="background-color: ivory;width:180px ; height: 30px;border-radius: 5px; padding: 5px;">Twitter App Backend</p>
+  <p>+ Add AnotherCard</p>
+</div>
+<div class="five">
+  <p  style="font-weight: bold;">Done</p>
+  <p style="width: 150px;height: 30px;">+ Add Another Card</p>
+</div>
+<div class="six">
+<p style="width: 150px;height: 30px;">+ Add Another List</p>
+
+</div>
+<div class="seven">
+<p><textarea placeholder="Enter list title..."> </textarea></p>
+<p><button type="submit" style="color: papayawhip;background-color: olive;">Add List</button> <button type="reset">X</button></p>
+
+</div>
+
+
+
+
+
+
+    </div>
+
+
+  
+    
+</body>
+</html>
